@@ -13,9 +13,9 @@ def main():
 
     while True:
         for event in pygame.event.get():
-            if event.type == pything.QUIT:
+            if event.type == pygame.QUIT:
                 return
-        display.flip()
+        pygame.display.flip()
 
     print("Starting asteroids!")
     print(f"Screen width: {SCREEN_WIDTH}")
