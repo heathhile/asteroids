@@ -2,7 +2,7 @@
 # the open-source pygame library
 # throughout this file
 import pygame
-from constants import *
+from Constants import *
 
 def main():
     pygame.init()
