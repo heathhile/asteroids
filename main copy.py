@@ -46,7 +46,7 @@ def main():
             for shot in shots:
                 if asteroid.collide(shot):
                     shot.kill()
-                    asteroid.kill()
+                    asteroid.split()
 
         # Handle shooting
         keys = pygame.key.get_pressed()
